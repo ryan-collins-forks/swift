@@ -22,6 +22,8 @@ from pygments.token import (
 
 __all__ = ['SwiftLexer', 'SwiftConsoleLexer']
 
+class RyanLexer():
+    name = 'Ryan'
 
 class SwiftLexer(RegexLexer):
     name = 'Swift'
